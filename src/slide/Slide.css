@@ -23,3 +23,8 @@
 .Slide-code {
     white-space: pre-wrap;
 }
+
+.Slide-github {
+    display: block;
+    font-size: x-large;
+}

@@ -93,6 +93,13 @@ const Slide5 = () => (
     </div>
 );
 
+const Slide6 = () => (
+    <div className="Slide">
+        <h1 className="Slide-main-title">Kildekode</h1>
+        <a className="Slide-github" target="_blank" href="https://github.com/jtkarlsen/google-speech-api-presentasjon">github.com/jtkarlsen/google-speech-api-presentasjon</a>
+    </div>
+)
+
 class SlideContainer extends Component {
 
     componentDidMount() {
@@ -114,6 +121,7 @@ class SlideContainer extends Component {
                 <Route exact path='/3' component={Slide3}/>
                 <Route exact path='/4' component={Slide4}/>
                 <Route exact path='/5' component={Slide5}/>
+                <Route exact path='/6' component={Slide6}/>
             </Switch>
         );
     }

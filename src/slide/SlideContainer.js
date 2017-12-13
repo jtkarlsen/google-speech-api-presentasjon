@@ -87,6 +87,12 @@ const Slide4 = () => (
     </div>
 );
 
+const Slide5 = () => (
+    <div className="Slide">
+        <h1 className="Slide-main-title">Fungerer det?</h1>
+    </div>
+);
+
 class SlideContainer extends Component {
 
     componentDidMount() {
@@ -107,6 +113,7 @@ class SlideContainer extends Component {
                 <Route exact path='/2' component={Slide2}/>
                 <Route exact path='/3' component={Slide3}/>
                 <Route exact path='/4' component={Slide4}/>
+                <Route exact path='/5' component={Slide5}/>
             </Switch>
         );
     }

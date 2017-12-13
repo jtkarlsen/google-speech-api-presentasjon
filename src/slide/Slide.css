@@ -1,0 +1,25 @@
+.Slide-main-title {
+    padding-top: 4em;
+}
+
+.Slide {
+    max-width: 60%;
+    margin: 0 auto;
+    font-size: larger;
+}
+
+.Slide-header {
+    padding-left: 1em;
+}
+
+.Slide-body {
+    text-align: left;
+}
+
+.Slide-body > li {
+    margin: 1em;
+}
+
+.Slide-code {
+    white-space: pre-wrap;
+}

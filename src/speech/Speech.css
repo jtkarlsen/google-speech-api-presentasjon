@@ -1,0 +1,21 @@
+
+
+.Speech-recording {
+    position: absolute;
+    left: 0px;
+    color: darkred;
+    font-size: 25px;
+    padding-left: .5em;
+}
+
+.Speech-header {
+    background-color: #222;
+    height: 150px;
+    color: white;
+    margin-bottom: 1em;
+}
+
+.Speech-logo {
+    height: 80px;
+    display: inline-block;
+}
